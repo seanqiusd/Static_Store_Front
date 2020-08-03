@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jolly Fruit Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <!-- login menu -->
+        <div id="oneDiv">
+            <ul>
+                <li><a href="#"><img src="Assets/twitter.png" alt="Twitter" border="0" class="socialMedia" /></a></li>
+                <li><a href="#"><img src="Assets/facebook.png" alt="Facebook" border="0" class="socialMedia" /></a></li>
+                <li><a href="#" class="active">Login</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><input type="search" id="search" placeholder="Search"></li>
+            </ul>
+        </div>
+        <!--nav-->
+        
+        <h1 class="mainHeading">Jolly Fruit</h1>
+        
+        <div id="twoDiv">
+            <nav>
+
+                <ul>
+                    
+                    <select>
+                        <option><a href="#">Shop</a></option>
+                        <option><a href="#">Apples & Pears</a></option>
+                        <option><a href="#">Citrus</a></option>
+                        <option><a href="#">Stone Fruit</a></option>
+                        <option><a href="#">Tropical</a></option>
+                        <option><a href="#">Melons</a></option>
+                        <option><a href="#">Berries</a></option>
+                    </select>
+
+                    <select>
+                        <option><a href="#">FAQs About Fruit</a></option>
+                        <option><a href="#">Vitamins & Minerals</a></option>
+                        <option><a href="#">Sustainablity</a></option>
+                        <option><a href="#">Versatility</a></option>
+                    </select>
+
+                    <select>
+                        <option><a href="#">Fruit Smoothie Favorites</a></option>
+                        <option><a href="#">Honeydew-Almond</a></option>
+                        <option><a href="#">Pomegranate-Berry</a></option>
+                        <option><a href="#">Pineapple-Coconut</a></option>
+                    </select>
+
+                </ul>
+            </nav>
+        </div>
+   
+    </header>
+    <section id="rightSection">
+        <!-- rightsidebar text -->
+        <div id="rightSideBar">
+        <h1>Why Eat Fruits?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste a obcaecati beatae expedita assumenda magni
+            consequuntur, sapiente at maiores et nulla quidem earum quia illum dolor non eaque vitae laboriosam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae asperiores labore sapiente cupiditate
+            fugiat inventore, veritatis reprehenderit quibusdam quisquam, quo architecto harum modi voluptates dolores
+            aperiam ad, iure nihil? Maxime.</p>
+        <!-- smoothies list -->
+        <br />
+        <h1>Fruit Tea Brews</h1>
+        <ol>
+            <li><a href="#">Honeydew-Almond</a></li>
+            <li><a href="#">Pomegranate-Berry</a></li>
+            <li><a href="#">Pineapple-Coconut</a></li>
+        </ol>
+        <br />
+        </div>
+    </section>
+    <section id="mainSect">
+        <!-- Shop for Fruit -->
+        <h1 id="shopFruit">Shop for Fruit</h1>
+        <div class="fruitPics">
+            <img id="orange" src="https://images.pexels.com/photos/820905/pexels-photo-820905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+            <div id="secondOrange">
+            <h3>Tangelo Orange</h3>    
+            <p>Get your daily dose of VitaC.</p>
+            <button>Order Now</button>
+            </div>
+        </div>
+        <div class="fruitPics">
+            <img id="cherries" src="https://images.pexels.com/photos/162689/cherry-pair-fruits-sweet-162689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div id="secondCherries">
+            <h3>Pomelo Cherries</h3>
+            <p>Tart and hard to eat as is or pit and throw into pies.</p>
+            <button>Order Now</button>
+            </div>
+        </div>
+        <div class="fruitPics">
+            <img id="grapes" src="https://images.pexels.com/photos/59680/pexels-photo-59680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div id="secondGrape">
+            <h3>Muscat Grapes</h3>
+            <p>Once you try these sweet grapes, you won't go back to regular domestic ones.</p>
+            <button>Order Now</button>
+            </div>
+        </div>
+        <div class="fruitPics">
+            <img id ="figs" src="https://images.pexels.com/photos/33791/fig-sliced-plate-wooden-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <div id=secondFig>
+            <h3>Home-Grown Figs</h3>
+            <p>Who can resist an anti-oxident-loaded bundle of deliciousness.</p>
+            <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!-- legal items, nav items -->
+        <section style="background-color: black; height: 105;">
+        <div id="contactForm">
+            <form>
+                <label>First Name</label>
+                <input type="text" placeholder="Your name...">
+
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Your last name...">
+                
+                <label for="">Country</label>
+                <select name="country" id="country">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="china">China</option>
+                </select>
+                <br />
+                <label for="subject">Subject</label>
+                <textarea name="" id="subject" cols="30" rows="10" style="height:50px" placeholder="Write your message..."></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="footerMore">
+            <p>Copyright © SeanQsd</p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="policy.html">Privacy</a></p>
+        </div>
+        
+        </section>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+body {
+    background: url(https://images.pexels.com/photos/583841/pexels-photo-583841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: url(https://images.pexels.com/photos/1028598/pexels-photo-1028598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 16px;
+    margin-top: 0px;
+    height: 32vh;
+    line-height: 1px;
+}
+
+#oneDiv {
+    float: right;
+    /* outline: 2px solid black; */
+}
+
+#oneDiv ul li {
+    display: inline-block;
+}
+
+#oneDiv ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#oneDiv ul li a:hover {
+    background-color: goldenrod;
+}
+
+#twoDiv {
+    float: left;
+    /* outline: 2px solid black; */
+    padding-top: 13%;
+    font-size: 23px;
+}
+
+#twoDiv nav ul li {
+    float: right;
+}
+
+#twoDiv nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.mainHeading {
+    float: left;
+    font-size: 70px;
+    font-weight: 900;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 55px;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    /* outline: 2px solid black; */
+}
+
+#rightSection {
+    float: right;
+}
+
+#rightSection ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+#rightSection ol li a:hover {
+    background-color: goldenrod;
+}
+
+#rightSideBar {
+    display: inline-block;
+    width: 300px;
+    /* outline: 2px solid black; */
+    border-radius: 15px;
+    margin-right: 275px;
+    margin-top: 100px;
+    text-align: center;
+    background: url(https://images.pexels.com/photos/3323682/pexels-photo-3323682.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    color: black;
+}
+
+#orange {
+    width: 220px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+#secondOrange {
+    width: 220px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: goldenrod;
+}
+
+#cherries {
+    width: 220px;
+    height: 150px;
+    margin-left: 70px;
+}
+
+#secondCherries {
+    width: 220px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: goldenrod;
+}
+
+#grapes {
+    width: 220px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+#secondGrape {
+    width: 220px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: goldenrod;
+}
+
+#figs {
+    width: 220px;
+    height: 150px;
+    margin-left: 70px;
+}
+
+#secondFig {
+    width: 220px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: goldenrod;
+}
+
+#mainSect {
+    display: inline-block;
+    width: 600px;
+    position: relative;
+    /* outline: 2px solid black;  */
+    margin-left: 80px;
+}
+
+.fruitPics {
+    display: inline-block;
+}
+
+#shopFruit {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#contactForm{
+    display: inline-block;
+    padding-bottom: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+#footerMore {
+    display: inline-flex;
+    padding-top: 20px;
+    color: white;
+    /* outline: 2px solid black; */
+}
+
+#footerMore p a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#footerMore p a:hover {
+    background-color: blue;
+}
